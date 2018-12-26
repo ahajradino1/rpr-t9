@@ -5,8 +5,8 @@ public class Grad implements Comparable<Grad> {
     String naziv;
     int brojStanovnika, id;
 
-    public Grad ( Drzava drzava, String naziv, int brojStanovnika) {
-   //     setId(id);
+    public Grad (int id, Drzava drzava, String naziv, int brojStanovnika) {
+        setId(id);
         setBrojStanovnika(brojStanovnika);
         setDrzava(drzava);
         setNaziv(naziv);
